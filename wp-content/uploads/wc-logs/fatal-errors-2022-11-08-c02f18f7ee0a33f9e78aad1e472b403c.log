@@ -1,0 +1,74 @@
+2022-11-08T12:54:07+00:00 CRITICAL Uncaught TypeError: trim(): Argument #1 ($string) must be of type string, array given in /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api.php:108
+Stack trace:
+#0 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api.php(108): trim()
+#1 /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php(516): register_rest_route()
+#2 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): {closure}()
+#3 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#5 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api.php(561): do_action()
+#6 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api.php(387): rest_get_server()
+#7 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#8 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#9 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#10 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#11 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#12 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php(1330): WP->main()
+#13 /home/deb131041n2/domains/somashome.be/public_html/wp-blog-header.php(16): wp()
+#14 /home/deb131041n2/domains/somashome.be/public_html/index.php(17): require('/home/deb131041...')
+#15 {main}
+  thrown in /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api.php on line 108
+
+2022-11-08T12:55:07+00:00 CRITICAL Uncaught TypeError: trim(): Argument #1 ($string) must be of type string, array given in /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api.php:108
+Stack trace:
+#0 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api.php(108): trim()
+#1 /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php(516): register_rest_route()
+#2 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): {closure}()
+#3 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#4 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#5 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api.php(561): do_action()
+#6 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api.php(387): rest_get_server()
+#7 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#8 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#9 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#10 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#11 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#12 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php(1330): WP->main()
+#13 /home/deb131041n2/domains/somashome.be/public_html/wp-blog-header.php(16): wp()
+#14 /home/deb131041n2/domains/somashome.be/public_html/index.php(17): require('/home/deb131041...')
+#15 {main}
+  thrown in /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api.php on line 108
+
+2022-11-08T13:14:38+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::get() in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php:526
+Stack trace:
+#0 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): getProducts()
+#1 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#2 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#3 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#4 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#5 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#7 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#8 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#9 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php(1330): WP->main()
+#10 /home/deb131041n2/domains/somashome.be/public_html/wp-blog-header.php(16): wp()
+#11 /home/deb131041n2/domains/somashome.be/public_html/index.php(17): require('/home/deb131041...')
+#12 {main}
+  thrown in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php on line 526
+
+2022-11-08T13:16:36+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::getProducts() in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php:526
+Stack trace:
+#0 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api/class-wp-rest-server.php(1143): getProducts()
+#1 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api/class-wp-rest-server.php(990): WP_REST_Server->respond_to_request()
+#2 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api/class-wp-rest-server.php(414): WP_REST_Server->dispatch()
+#3 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#4 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#5 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#7 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#8 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#9 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php(1330): WP->main()
+#10 /home/deb131041n2/domains/somashome.be/public_html/wp-blog-header.php(16): wp()
+#11 /home/deb131041n2/domains/somashome.be/public_html/index.php(17): require('/home/deb131041...')
+#12 {main}
+  thrown in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php on line 526
+

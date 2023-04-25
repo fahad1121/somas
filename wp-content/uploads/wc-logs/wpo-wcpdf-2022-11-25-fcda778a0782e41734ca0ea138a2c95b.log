@@ -1,0 +1,2 @@
+2022-11-25T11:23:46+00:00 INFO Template setting migrated from /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/templates/Simple to default/Simple
+2022-11-25T11:23:53+00:00 CRITICAL Table 'deb131041n2_wp2.wp_wcpdf_invoice_number' doesn't exist

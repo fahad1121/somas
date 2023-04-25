@@ -1,0 +1,11 @@
+.boost-page .boost-hidden {
+    display: none;
+}
+
+.boost-page .boost-active {
+    display: block;
+}
+
+.boost-bold {
+    font-weight: bold;
+}

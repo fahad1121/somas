@@ -1,0 +1,44 @@
+.boost-license-container {
+    margin: 43px auto 0;
+}
+
+.boost-license-field-input,
+.boost-license-field-button {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.boost-license-field-button {
+    margin: 0 15px;
+}
+
+.boost-page .boost-button-medium {
+    height:43px;
+}
+
+.boost-page.boost-license-page {
+    min-height: 500px;
+}
+.boost-license-message {
+    padding: 0 9px;
+    margin: 15px 0;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+     color: #0c0088;
+    /*color: rgba(6,0,71,0.34);*/
+    letter-spacing: 0.04px;
+    line-height: 24px;
+    text-transform: none;
+}
+.boost-license-message .boost-message-success,
+.boost-license-message .boost-message-success a {
+    color: green;
+}
+.boost-license-message .boost-message-danger,
+.boost-license-message .boost-message-danger a{
+    color: rgb(255, 112, 0);
+}
+.boost-license-message .boost-message-red,
+.boost-license-message .boost-message-red a{
+    color: red;
+}

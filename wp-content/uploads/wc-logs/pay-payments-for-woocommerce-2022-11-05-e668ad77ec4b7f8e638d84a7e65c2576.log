@@ -1,0 +1,4 @@
+2022-11-05T09:45:40+00:00 INFO [1911101520X6200a] Start transaction | amount=45.60 | method=PAY. - MisterCash / Bancontact | wc-order-id=4423 
+2022-11-05T13:46:49+00:00 INFO [1911101520X6200a] Exchange incoming | action=cancel | wc_order_id=4423 | methodid=613 
+2022-11-05T13:46:49+00:00 INFO [4423] ProcessTransaction | 0=CANCELED | 1=PENDING 
+2022-11-05T13:46:49+00:00 INFO [1911101520X6200a] ProcessTransaction | wc-order-id=4423 | wcOrderStatus=cancelled | PAY status=CANCELED | PAY status id=-80 

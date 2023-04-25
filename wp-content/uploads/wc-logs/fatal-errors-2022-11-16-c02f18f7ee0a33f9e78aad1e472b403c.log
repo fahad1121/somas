@@ -1,0 +1,206 @@
+2022-11-16T08:36:31+00:00 CRITICAL Unclosed '{' on line 367 in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php on line 414
+
+2022-11-16T08:36:31+00:00 CRITICAL Unclosed '{' on line 367 in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php on line 414
+
+2022-11-16T08:45:45+00:00 CRITICAL syntax error, unexpected token "if" in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php on line 723
+
+2022-11-16T08:45:46+00:00 CRITICAL syntax error, unexpected token "if" in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php on line 723
+
+2022-11-16T08:49:02+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Query::get() in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php:722
+Stack trace:
+#0 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): default_catalog_ordering_desc()
+#1 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(518): do_action()
+#4 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(388): WC_Query->product_query()
+#5 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): WC_Query->pre_get_posts()
+#6 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(1818): do_action_ref_array()
+#9 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(3613): WP_Query->get_posts()
+#10 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(648): WP_Query->query()
+#11 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(775): WP->query_posts()
+#12 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php(1330): WP->main()
+#13 /home/deb131041n2/domains/somashome.be/public_html/wp-blog-header.php(16): wp()
+#14 /home/deb131041n2/domains/somashome.be/public_html/index.php(17): require('/home/deb131041...')
+#15 {main}
+  thrown in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php on line 722
+
+2022-11-16T08:49:25+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Query::products() in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php:722
+Stack trace:
+#0 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): default_catalog_ordering_desc()
+#1 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(518): do_action()
+#4 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(388): WC_Query->product_query()
+#5 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): WC_Query->pre_get_posts()
+#6 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(1818): do_action_ref_array()
+#9 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(3613): WP_Query->get_posts()
+#10 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(648): WP_Query->query()
+#11 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(775): WP->query_posts()
+#12 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php(1330): WP->main()
+#13 /home/deb131041n2/domains/somashome.be/public_html/wp-blog-header.php(16): wp()
+#14 /home/deb131041n2/domains/somashome.be/public_html/index.php(17): require('/home/deb131041...')
+#15 {main}
+  thrown in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php on line 722
+
+2022-11-16T08:49:40+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Query::getProducts() in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php:722
+Stack trace:
+#0 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): default_catalog_ordering_desc()
+#1 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(518): do_action()
+#4 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(388): WC_Query->product_query()
+#5 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): WC_Query->pre_get_posts()
+#6 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(1818): do_action_ref_array()
+#9 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(3613): WP_Query->get_posts()
+#10 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(648): WP_Query->query()
+#11 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(775): WP->query_posts()
+#12 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php(1330): WP->main()
+#13 /home/deb131041n2/domains/somashome.be/public_html/wp-blog-header.php(16): wp()
+#14 /home/deb131041n2/domains/somashome.be/public_html/index.php(17): require('/home/deb131041...')
+#15 {main}
+  thrown in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php on line 722
+
+2022-11-16T08:51:51+00:00 CRITICAL Uncaught Error: Call to a member function getProducts() on null in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php:723
+Stack trace:
+#0 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): default_catalog_ordering_desc()
+#1 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(518): do_action()
+#4 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(388): WC_Query->product_query()
+#5 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): WC_Query->pre_get_posts()
+#6 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(1818): do_action_ref_array()
+#9 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(3613): WP_Query->get_posts()
+#10 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(648): WP_Query->query()
+#11 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(775): WP->query_posts()
+#12 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php(1330): WP->main()
+#13 /home/deb131041n2/domains/somashome.be/public_html/wp-blog-header.php(16): wp()
+#14 /home/deb131041n2/domains/somashome.be/public_html/index.php(17): require('/home/deb131041...')
+#15 {main}
+  thrown in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php on line 723
+
+2022-11-16T09:03:28+00:00 CRITICAL Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php:715
+Stack trace:
+#0 /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php(715): array_push()
+#1 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(309): custom_catalog_ordering_args()
+#2 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters()
+#3 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(622): apply_filters()
+#4 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(486): WC_Query->get_catalog_ordering_args()
+#5 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(388): WC_Query->product_query()
+#6 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): WC_Query->pre_get_posts()
+#7 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#9 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(1818): do_action_ref_array()
+#10 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(3613): WP_Query->get_posts()
+#11 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(648): WP_Query->query()
+#12 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(775): WP->query_posts()
+#13 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php(1330): WP->main()
+#14 /home/deb131041n2/domains/somashome.be/public_html/wp-blog-header.php(16): wp()
+#15 /home/deb131041n2/domains/somashome.be/public_html/index.php(17): require('/home/deb131041...')
+#16 {main}
+  thrown in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php on line 715
+
+2022-11-16T09:03:50+00:00 CRITICAL Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php:715
+Stack trace:
+#0 /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php(715): array_push()
+#1 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(309): custom_catalog_ordering_args()
+#2 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters()
+#3 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(622): apply_filters()
+#4 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(486): WC_Query->get_catalog_ordering_args()
+#5 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(388): WC_Query->product_query()
+#6 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): WC_Query->pre_get_posts()
+#7 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#8 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#9 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(1818): do_action_ref_array()
+#10 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(3613): WP_Query->get_posts()
+#11 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(648): WP_Query->query()
+#12 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(775): WP->query_posts()
+#13 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php(1330): WP->main()
+#14 /home/deb131041n2/domains/somashome.be/public_html/wp-blog-header.php(16): wp()
+#15 /home/deb131041n2/domains/somashome.be/public_html/index.php(17): require('/home/deb131041...')
+#16 {main}
+  thrown in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php on line 715
+
+2022-11-16T10:41:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function custom_catalog_ordering_args(), 1 passed in /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php on line 309 and exactly 2 expected in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php:706
+Stack trace:
+#0 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(309): custom_catalog_ordering_args()
+#1 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters()
+#2 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(622): apply_filters()
+#3 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(486): WC_Query->get_catalog_ordering_args()
+#4 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(388): WC_Query->product_query()
+#5 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): WC_Query->pre_get_posts()
+#6 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(1818): do_action_ref_array()
+#9 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(3613): WP_Query->get_posts()
+#10 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(648): WP_Query->query()
+#11 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(775): WP->query_posts()
+#12 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php(1330): WP->main()
+#13 /home/deb131041n2/domains/somashome.be/public_html/wp-blog-header.php(16): wp()
+#14 /home/deb131041n2/domains/somashome.be/public_html/index.php(17): require('/home/deb131041...')
+#15 {main}
+  thrown in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php on line 706
+
+2022-11-16T10:52:49+00:00 CRITICAL Uncaught Error: Call to a member function getProduct() on null in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php:708
+Stack trace:
+#0 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(309): custom_catalog_ordering_args()
+#1 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters()
+#2 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(622): apply_filters()
+#3 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(486): WC_Query->get_catalog_ordering_args()
+#4 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(388): WC_Query->product_query()
+#5 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): WC_Query->pre_get_posts()
+#6 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(1818): do_action_ref_array()
+#9 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(3613): WP_Query->get_posts()
+#10 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(648): WP_Query->query()
+#11 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(775): WP->query_posts()
+#12 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php(1330): WP->main()
+#13 /home/deb131041n2/domains/somashome.be/public_html/wp-blog-header.php(16): wp()
+#14 /home/deb131041n2/domains/somashome.be/public_html/index.php(17): require('/home/deb131041...')
+#15 {main}
+  thrown in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php on line 708
+
+2022-11-16T11:23:36+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Query as array in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php:726
+Stack trace:
+#0 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(309): vzm_product_query_by_meta()
+#1 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#3 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(518): do_action()
+#4 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(388): WC_Query->product_query()
+#5 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): WC_Query->pre_get_posts()
+#6 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#8 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(1818): do_action_ref_array()
+#9 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(3613): WP_Query->get_posts()
+#10 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(648): WP_Query->query()
+#11 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(775): WP->query_posts()
+#12 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php(1330): WP->main()
+#13 /home/deb131041n2/domains/somashome.be/public_html/wp-blog-header.php(16): wp()
+#14 /home/deb131041n2/domains/somashome.be/public_html/index.php(17): require('/home/deb131041...')
+#15 {main}
+  thrown in /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/functions.php on line 726
+
+2022-11-16T11:46:42+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Query as array in /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php:487
+Stack trace:
+#0 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php(388): WC_Query->product_query()
+#1 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): WC_Query->pre_get_posts()
+#2 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#4 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(1818): do_action_ref_array()
+#5 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-query.php(3613): WP_Query->get_posts()
+#6 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(648): WP_Query->query()
+#7 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp.php(775): WP->query_posts()
+#8 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php(1330): WP->main()
+#9 /home/deb131041n2/domains/somashome.be/public_html/wp-blog-header.php(16): wp()
+#10 /home/deb131041n2/domains/somashome.be/public_html/index.php(17): require('/home/deb131041...')
+#11 {main}
+  thrown in /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/class-wc-query.php on line 487
+

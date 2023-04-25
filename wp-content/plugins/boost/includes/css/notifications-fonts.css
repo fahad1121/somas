@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: local('OpenSans-Regular'), local('OpenSans Regular'), url('../fonts/open-sans.regular.ttf');
+}
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: local('OpenSans-Bold'), local('OpenSans Bold'), url('../fonts/open-sans.bold.ttf');
+}
+@font-face {
+    font-family: 'Baloo-Regular';
+    src: local('Baloo Regular'), local('Baloo-Regular'), url('../fonts/Baloo-Regular.ttf');
+}

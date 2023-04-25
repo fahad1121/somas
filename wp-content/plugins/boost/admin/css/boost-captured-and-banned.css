@@ -1,0 +1,72 @@
+.boost-page .boost-button-small {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 13px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.boost-page input.boost-items-list-pages-input-style {
+    height: 30px;
+    padding: 0 9px;
+    margin: 0;
+    background: #ffffff;
+    box-shadow: none;
+    border-radius: 7px;
+    border: 1px solid #d2d1de;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: rgba(6,0,71,0.34);
+    letter-spacing: 0.04px;
+    text-align: left;
+    vertical-align: middle;
+}
+.boost-page input.boost-items-list-pages-input-style:active,
+.boost-page input.boost-items-list-pages-input-style:focus {
+    color: #0c0088;
+    border: 1px solid #0c0088;
+    border-radius: 7px;
+}
+
+.boost-page .boost-items-list-table-actions button span{
+    vertical-align: middle;
+}
+
+.boost-page .boost-button-action {
+    background: rgb(255, 112, 0);
+
+    font-family: Roboto-Bold;
+    font-size: 10px;
+    color: #ffffff;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.boost-items-list-table thead tr th.column-action-id {
+    width: 63px;
+}
+.boost-items-list-table thead tr th.column-action-name {
+    width: 139px;
+}
+.boost-items-list-table thead tr th.column-action-country {
+    width: 139px;
+}
+.boost-items-list-table thead tr th.column-action-state {
+    width: 139px;
+}
+.boost-items-list-table thead tr th.column-action-town {
+    width: 139px;
+}
+.boost-items-list-table thead tr th.column-action-actions {
+    width: 250px;
+}
+
+.boost-items-list-table.boost-banned-word-list-table thead tr th.column-action-name {
+    width: 561px;
+}
+
+.boost-items-list-table tbody tr th input {
+    width: 90%;
+}
+

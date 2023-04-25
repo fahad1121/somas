@@ -1,0 +1,377 @@
+/* CUSTOM SPINNER  */
+.boost-spinner {
+    margin:0 8px;
+    display: inline-block;
+}
+
+.boost-spinner>.spinner-data>* {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.boost-spinner>.spinner-data input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    -moz-appearance:textfield;
+}
+.boost-spinner>.spinner-data input[type=number]::-webkit-inner-spin-button,
+.boost-spinner>.spinner-data input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+.boost-spinner>.spinner-data input{
+    background:#ffc600;
+    border:1px solid #ffc600;
+    border-radius:100px;
+    width:53px;
+    height:26px;
+
+    font-family:Roboto-Bold;
+    font-size:16px;
+    color:#060047;
+    letter-spacing:-0.14px;
+    line-height:18px;
+    text-align:center;
+}
+
+.boost-spinner>.spinner-data .spinner-down,
+.boost-spinner>.spinner-data .spinner-up {
+    background:#ffffff;
+    border:1px solid rgba(6,0,71,0.21);
+    border-radius:100px;
+    width:18px;
+    height:18px;
+    position: relative;
+
+    cursor: pointer;
+}
+.boost-spinner>.spinner-data .spinner-down:after,
+.boost-spinner>.spinner-data .spinner-up:after {
+    display: block;
+    position: absolute;
+    top:0;
+
+    width:18px;
+    height:18px;
+
+    font-family:Roboto-Bold;
+    color: #060047;
+    font-size:18px;
+
+}
+.boost-spinner>.spinner-data .spinner-down:after {
+    content: '-';
+    left:6px;
+}
+.boost-spinner>.spinner-data .spinner-up:after {
+    content: '+';
+    left:3.8px;
+}
+.spinner-description {
+    font-family:Roboto-Bold;
+    font-size:10px;
+    letter-spacing:0.25px;
+    text-align:center;
+}
+
+.boost-spinner.spinner-pink>.spinner-data .spinner-down:after,
+.boost-spinner.spinner-pink>.spinner-data .spinner-up:after,
+.boost-spinner.spinner-pink>.spinner-data input{
+    border-color: #cd68b8;
+}
+.boost-spinner.spinner-pink>.spinner-data .spinner-down:after,
+.boost-spinner.spinner-pink>.spinner-data .spinner-up:after,
+.boost-spinner.spinner-pink>.spinner-description {
+    color: #cd68b8;
+}
+.boost-spinner.spinner-pink>.spinner-data input{
+    color:#ffffff;
+    background-color: #cd68b8;
+}
+
+.boost-spinner.spinner-blue>.spinner-data .spinner-down:after,
+.boost-spinner.spinner-blue>.spinner-data .spinner-up:after,
+.boost-spinner.spinner-blue>.spinner-data input{
+    border-color: #2794da;
+}
+.boost-spinner.spinner-blue>.spinner-data .spinner-down:after,
+.boost-spinner.spinner-blue>.spinner-data .spinner-up:after,
+.boost-spinner.spinner-blue>.spinner-description {
+    color: #2794da;
+}
+.boost-spinner.spinner-blue>.spinner-data input{
+    color:#ffffff;
+    background-color: #2794da;
+}
+
+/* END SPINNER*/
+
+
+.boost-settings-page-tab-list-container > ul.boost-page-tab-list {
+    width: 253px;
+}
+
+.boost-setting-field-data>div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.boost-setting-field-name {
+    font-family:Roboto-Bold;
+    font-size:16px;
+    color:#060047;
+    letter-spacing:-0.14px;
+    line-height:20px;
+    text-align:left;
+}
+.boost-setting-field-description {
+    font-family:Roboto-Regular;
+    font-size:12px;
+    color:rgba(6,0,71,0.43);
+    letter-spacing:0.29px;
+    line-height:17px;
+    text-align:left;
+}
+.boost-setting-field-container {
+    margin: 0 0 38px 0;
+}
+
+.boost-tab-side {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.boost-setting-gather-limit-field .boost-setting-field-name {
+    width:124px;
+}
+
+.boost-tabs-container>div,
+.boost-exclude-options-block-container>div {
+    padding: 0 25px;
+}
+.boost-tab-side {
+    padding:0 19px;
+}
+.boost-tab-left-side {
+    width:430px;
+}
+.boost-tab-right-side {
+    width:310px;
+}
+.boost-setting-field-container.switch-field>div {
+    display: inline-block;
+}
+.switch-field .switch-data {
+    vertical-align: top;
+}
+.switch-field .switch-data,
+.switch-field .switch-label {
+    padding: 0 5px;
+}
+.switch-field .switch-label {
+    width:235px;
+}
+.switch-field .switch-label>div.field-name {
+    line-height: 26px;
+}
+.disabled .boost-setting-field-name {
+    color:rgba(6,0,71,0.18);
+}
+
+.boost-inline-block {
+    display: inline-block;
+}
+
+.boost-extra-addon-required {
+    margin: 10px 0;
+}
+.boost-extra-addon-required>div {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.boost-extra-addon-required-text {
+    background:#060047;
+    border-radius:100px;
+    width:153px;
+    height:19px;
+    line-height: 19px;
+    font-family:Roboto-Bold;
+    font-size:10px;
+    color:#ffffff;
+    letter-spacing:0.92px;
+}
+.boost-icon-help {
+    display: inline-block;
+    position: relative;
+    width:17px;
+    height:17px;
+    background: url('../imgs/help-icon.png') center center no-repeat;
+    cursor: pointer;
+    margin: 0 3px;
+}
+
+.boost-setting-field.setting-range-field{
+    margin:5px 0;
+}
+
+
+
+
+/* RANGE ELEMENT */
+.range {
+    position: relative;
+    width: 207px;
+    height: 24px;
+    background: url('../imgs/range-slider-background.png') center center no-repeat;
+    background-size: contain;
+}
+
+.range input {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left:0;
+    right:0;
+    -webkit-appearance: none;
+    z-index: 3;
+    background: transparent;
+}
+.range input[type=range]::-moz-focus-outer {
+    border: 0;
+}
+
+.range input::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   width: 24px;
+   height: 24px;
+    display: block;
+   border-radius: 50%;
+   background: transparent;
+   cursor: pointer;
+    z-index: 777;
+    position: relative;
+    border:none;
+}
+
+.range input::-moz-range-thumb {
+    margin:0;
+    width: 24px;
+    height: 24px;
+    display: block;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    z-index: 777;
+    position: relative;
+    border:none;
+ }
+
+.range input::-ms-thumb {
+    width: 24px;
+    height: 24px;
+    display: block;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    z-index: 777;
+    position: relative;
+    border:none;
+ }
+
+.range input:focus {
+ background: none;
+     outline: none;
+ }
+
+.range input::-moz-range-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+.range input::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+.range input::-webkit-slider-runnable-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+.range-labels {
+   margin: 0 10% 0 2.5%;
+   padding: 0;
+   list-style: none;
+}
+
+.range-labels li {
+    font-family:Roboto-Bold;
+    position: relative;
+    float: left;
+    text-align: center;
+    color: #060047;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+.range-labels li .label-range {
+    position: relative;
+    left:0;
+    display: none;
+}
+.range-labels li .label-range>div {
+    position: absolute;
+    text-align: center;
+    letter-spacing:0.6px;
+    border-radius:100px;
+}
+.range-labels li .label-range .label-range-value {
+    width:24px;
+    height:24px;
+    background: #ffc600;
+    line-height: 24px;
+    z-index: 2;
+}
+.range-labels li .label-range .label-range-text {
+    margin:4px 5px;
+    padding: 3px 6px 2px 24px;
+    background:#ffffff;
+    border:1px solid rgba(6,0,71,0.21);
+    line-height:10px;
+    font-size: 10px;
+    z-index: 1;
+}
+.range-labels li.active .label-range {
+    display: block;
+}
+
+/* END RANGE ELEMENT */
+
+.boost-confirmation-message,
+.boost-tab-default-settings {
+    text-align: center;
+}
+.boost-confirmation-message {
+    text-transform: uppercase;
+}
+.boost-confirmation-buttons-block {
+    display: inline-block;
+    margin-top: 29px;
+}
+
+.boost-page .boost-setting-translation-field input.boost-input-style{
+    width: auto;
+}
+.boost-setting-need-translation-text {
+    width: 200px;
+}
+/* END */

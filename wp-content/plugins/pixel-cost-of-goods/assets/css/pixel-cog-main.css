@@ -1,0 +1,177 @@
+.pixel_cog_row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.pixel_cog_row > .form-field:nth-of-type(2) {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.pixel_cog_wrap {
+    clear: both;
+}
+
+.pixel_cog_wrap label {
+    display: block;
+    width: 100%;
+}
+
+.pixel_cog_wrap .pixel_cog_row {
+    align-items: flex-start;
+}
+
+.pixel_cog_wrap .description {
+    display: block;
+}
+
+.pixel_cog_wrap .pixel_cog_row input,
+.pixel_cog_wrap .pixel_cog_row select {
+    line-height: 2;
+    min-height: 30px;
+    padding: 5px;
+}
+
+.pixel_cog_wrap .pixel_cog_row input {
+    width: 100%;
+}
+
+table.wp-list-table .column-pixel_cost,
+table.wp-list-table .column-pixel_profit {
+    width: 10ch;
+}
+
+/* plugin notice*/
+
+.pixel-cog-notice-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin: 15px 0 0;
+}
+
+.pixel-cog-notice-wrapper .pys-notice-logo {
+    margin-right: 15px;
+    width: 50px;
+    max-width: 50px;
+    height: auto;
+}
+.recalculate_button.processing,
+#calculate_cost_btn.processing {
+    opacity: .7;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Woocommerce settings tab style */
+
+.button-block {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+.pixel_cog_setting_wrapper {
+    margin: 15px 0 0;
+}
+
+.setting_wrapper-row > div {
+    margin-bottom: 10px;
+    max-width: 220px;
+}
+
+.setting_wrapper-row > div input {
+    max-width: 100%;
+}
+
+.setting_wrapper-row label {
+    color: #23282d;
+    font-size: 1.15em;
+    margin: 1em 0;
+    display: block;
+    font-weight: 600;
+}
+
+.pixel_cog_setting-toggle-enabled:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.pixel_cog_setting_wrapper.disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.pixel_cog_setting_wrapper hr {
+    border-top: 1px solid #7a7a7a;
+    border-bottom: 1px solid #dedede;
+    margin: 15px auto;
+}
+
+/* popup style*/
+.pixel_cog_popup.popup {
+    display: none;
+    width: calc(100% + 20px);
+    position: absolute;
+    background: rgba(0, 0, 0, .3) !important;
+    height: 100%;
+    top: 0;
+    left: -20px;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    z-index: 99;
+}
+
+.pixel_cog_popup.popup .msg {
+    position: fixed;
+    top: 35%;
+    padding: 50px 30px;
+    background: #fff;
+    color: #333;
+    font-size: 19px;
+    line-height: 30px;
+    border: 10px solid #150E2D;
+    z-index: 9999;
+    left: 31%;
+    width: 700px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.pixel_cog_popup.popup.error .msg {
+    border: 10px solid #ff0707;
+}
+
+.pixel_cog_popup.popup.success .msg {
+    border: 10px solid #47cf73;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    max-width: 300px;
+    margin: 15px auto 0;
+}
+
+.form-field._pixel_cost_of_goods_cost_val_field .description {
+    display: block;
+    clear: both;
+}
+
+.general_options.general_tab {
+    display: block !important;
+}
+
+#pixel_cog_tax_options-description {
+    font-weight: bold;
+}

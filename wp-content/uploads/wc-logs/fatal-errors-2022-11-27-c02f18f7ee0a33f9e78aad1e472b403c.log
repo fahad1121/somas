@@ -1,0 +1,25 @@
+2022-11-27T19:29:59+00:00 CRITICAL Uncaught TypeError: strstr(): Argument #1 ($haystack) must be of type string, WP_Error given in /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php:1143
+Stack trace:
+#0 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php(1143): strstr()
+#1 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/martfury-addons/inc/widgets/widget-brands-nav.php(240): add_query_arg()
+#2 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/martfury-addons/inc/widgets/widget-brands-nav.php(301): Martfury_Widget_Brands_Nav->get_page_base_url()
+#3 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/martfury-addons/inc/widgets/widget-brands-nav.php(152): Martfury_Widget_Brands_Nav->layered_nav_list()
+#4 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-widget.php(393): Martfury_Widget_Brands_Nav->widget()
+#5 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/widgets.php(835): WP_Widget->display_callback()
+#6 /home/deb131041n2/domains/somashome.be/public_html/wp-content/themes/martfury/sidebar.php(55): dynamic_sidebar()
+#7 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/template.php(770): require_once('/home/deb131041...')
+#8 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/template.php(716): load_template()
+#9 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/general-template.php(136): locate_template()
+#10 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/templates/global/sidebar.php(22): get_sidebar()
+#11 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/deb131041...')
+#12 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1039): wc_get_template()
+#13 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(307): woocommerce_get_sidebar()
+#14 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#15 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#16 /home/deb131041n2/domains/somashome.be/public_html/wp-content/plugins/woocommerce/templates/archive-product.php(103): do_action()
+#17 /home/deb131041n2/domains/somashome.be/public_html/wp-includes/template-loader.php(106): include('/home/deb131041...')
+#18 /home/deb131041n2/domains/somashome.be/public_html/wp-blog-header.php(19): require_once('/home/deb131041...')
+#19 /home/deb131041n2/domains/somashome.be/public_html/index.php(17): require('/home/deb131041...')
+#20 {main}
+  thrown in /home/deb131041n2/domains/somashome.be/public_html/wp-includes/functions.php on line 1143
+

@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "\/home\/deb131041n2\/domains\/somashome.be\/public_html\/wp-content\/uploads\/wpo_wcpdf_8c585c4ecd88ef9ed671fab5350c7303\/fonts\/OpenSans-Normal",
+        "bold": "\/home\/deb131041n2\/domains\/somashome.be\/public_html\/wp-content\/uploads\/wpo_wcpdf_8c585c4ecd88ef9ed671fab5350c7303\/fonts\/OpenSans-Bold",
+        "italic": "\/home\/deb131041n2\/domains\/somashome.be\/public_html\/wp-content\/uploads\/wpo_wcpdf_8c585c4ecd88ef9ed671fab5350c7303\/fonts\/OpenSans-Italic",
+        "bold_italic": "\/home\/deb131041n2\/domains\/somashome.be\/public_html\/wp-content\/uploads\/wpo_wcpdf_8c585c4ecd88ef9ed671fab5350c7303\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "\/home\/deb131041n2\/domains\/somashome.be\/public_html\/wp-content\/uploads\/wpo_wcpdf_8c585c4ecd88ef9ed671fab5350c7303\/fonts\/Segoe-Normal",
+        "bold": "\/home\/deb131041n2\/domains\/somashome.be\/public_html\/wp-content\/uploads\/wpo_wcpdf_8c585c4ecd88ef9ed671fab5350c7303\/fonts\/Segoe-Bold",
+        "italic": "\/home\/deb131041n2\/domains\/somashome.be\/public_html\/wp-content\/uploads\/wpo_wcpdf_8c585c4ecd88ef9ed671fab5350c7303\/fonts\/Segoe-Italic",
+        "bold_italic": "\/home\/deb131041n2\/domains\/somashome.be\/public_html\/wp-content\/uploads\/wpo_wcpdf_8c585c4ecd88ef9ed671fab5350c7303\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "\/home\/deb131041n2\/domains\/somashome.be\/public_html\/wp-content\/uploads\/wpo_wcpdf_8c585c4ecd88ef9ed671fab5350c7303\/fonts\/RobotoSlab-Normal",
+        "bold": "\/home\/deb131041n2\/domains\/somashome.be\/public_html\/wp-content\/uploads\/wpo_wcpdf_8c585c4ecd88ef9ed671fab5350c7303\/fonts\/RobotoSlab-Bold",
+        "italic": "\/home\/deb131041n2\/domains\/somashome.be\/public_html\/wp-content\/uploads\/wpo_wcpdf_8c585c4ecd88ef9ed671fab5350c7303\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "\/home\/deb131041n2\/domains\/somashome.be\/public_html\/wp-content\/uploads\/wpo_wcpdf_8c585c4ecd88ef9ed671fab5350c7303\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "\/home\/deb131041n2\/domains\/somashome.be\/public_html\/wp-content\/uploads\/wpo_wcpdf_8c585c4ecd88ef9ed671fab5350c7303\/fonts\/currencies",
+        "bold": "\/home\/deb131041n2\/domains\/somashome.be\/public_html\/wp-content\/uploads\/wpo_wcpdf_8c585c4ecd88ef9ed671fab5350c7303\/fonts\/currencies",
+        "italic": "\/home\/deb131041n2\/domains\/somashome.be\/public_html\/wp-content\/uploads\/wpo_wcpdf_8c585c4ecd88ef9ed671fab5350c7303\/fonts\/currencies",
+        "bold_italic": "\/home\/deb131041n2\/domains\/somashome.be\/public_html\/wp-content\/uploads\/wpo_wcpdf_8c585c4ecd88ef9ed671fab5350c7303\/fonts\/currencies"
+    }
+}
