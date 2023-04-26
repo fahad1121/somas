@@ -105,8 +105,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     <tr class="order-total">
 <!--        <th>--><?php //_e( 'Total123', 'woocommerce' ); ?><!--</th>-->
 <!--        <td>--><?php //wc_cart_totals_order_total_html(); ?><!--</td>-->
-        <input type="hidden" name="fahad" value="<?= WC()->cart->total; ?>">
-        <td>
+        <td colspan="2">
             <?php $value = WC()->cart->total;?>
             <p class="terms price-currency_checkout"><label>prijs in €</label></p>
             <div class="mf-summary-header">

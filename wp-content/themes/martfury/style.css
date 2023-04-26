@@ -215,6 +215,7 @@ div.mf-product-detail div.summary .aantal-termijnen .popular-price-term {
 	display: table;
 	width: 100%;
 	position: relative;
+	/*right:-50px;*/
 }
 .steps-form_checkout .steps-row_checkout {
 	display: table-row;
