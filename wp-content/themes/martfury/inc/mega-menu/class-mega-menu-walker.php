@@ -277,7 +277,8 @@ class Martfury_Mega_Menu_Walker extends Walker_Nav_Menu {
 			if ( $this->column == 5 ) {
 				$class_names = ' class="mr-col col-md-1-' . $this->column . '"';
 			} else {
-				$class_names = ' class="mr-col col-md-' . $this->column . '"';
+//				$class_names = ' class="mr-col col-md-' . $this->column . '"';
+				$class_names = ' class="mr-col col-md-3"';
 			}
 			$output .= $indent . '<div' . $class_names . '>' . "\n";
 

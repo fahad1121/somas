@@ -272,6 +272,10 @@ div.mf-product-detail div.summary .aantal-termijnen .popular-price-term {
 	color: var(--mf-primary-color);
 }
 
+/*Mega Menu*/
+ul.dropdown-submenu{
+	width:1050px !important;
+}
 /* slider-product-page ends */
 table.mb-requirements {
     border: 1px solid #ccc;
